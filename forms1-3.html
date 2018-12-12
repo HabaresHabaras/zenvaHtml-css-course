@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Forms</h1>
+    <form>
+        <div>
+            Name:
+            <!-- If you write required as an attr for input, it will be required -->
+            <input type="text" required />
+        </div>
+        <div>
+            Age:
+            <input type="number" />
+        </div>
+        <br />
+        <div>
+            <input type="checkbox" /> Is enrolled?
+        </div>
+        <br />
+        <div>
+            <textarea>
+                Something  you can write in here....
+            </textarea>
+        </div>
+        <div>
+            Color:
+            <select>
+                <!-- Attr of selected will make this option the default -->
+                <option selected>red</option>
+                <option>green</option>
+                <option>blue</option>
+
+            </select>
+        </div>
+        <div>
+            Locations:
+            <!--with the multiple attr you can select more than one  -->
+            <select multiple>
+                <!-- Attr of selected will make this option the default -->
+                <option selected>Brisbane</option>
+                <option>Madrid</option>
+                <option>Orlando</option>
+
+            </select>
+        </div>
+        <div>
+            <input type="submit" value="send" />
+        </div>
+    </form>
+</body>
+
+</html>

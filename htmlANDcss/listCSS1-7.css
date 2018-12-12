@@ -1,0 +1,32 @@
+.veggie{
+    color:green;
+}
+
+.meat{
+    color:red;
+}
+
+#box{
+    background-color:yellow;
+    width: 200px;
+    height:100px;
+    padding:50px;
+    /* A border around the box */
+    border: 2px solid black;
+    /* Margin is the space around the box, auto will center the box */
+    margin: 10px auto 10px auto;
+    /* to align text */
+    text-align:center;
+    /* for the text to be vertically aligned, it must have a line height property of the same height of the box */
+    vertical-align:middle;
+    line-height:100px;
+}
+
+#boxTwo{
+    background-color:blue;
+    width: 150px;
+    height:150;
+    padding:30px;
+    border: 10px solid orange;
+    margin:20px;
+}

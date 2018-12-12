@@ -1,0 +1,18 @@
+body{
+    font-size:16px;
+}
+/* 1 rem will look at the body's font size and be the same size */
+/* Hence, if the body font is 16px, 1 rem will=16px, and 2 rem=32px and so on */
+p{
+    font-size: 2rem;
+    font-family:Arial, Courier;
+}
+/* If Arial is not available, use Courier */
+.keypoint{
+    font-style:italic;
+    font-weight:bold;
+    text-decoration:underline;
+}
+.googleFont{
+    font-family: 'Roboto', sans-serif;
+}
